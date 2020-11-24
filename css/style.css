@@ -93,6 +93,10 @@
 /* 00 - MEDIA QUERIES */
 /* 00 - CSS ANIMATIONS */
 
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.otf);
+  }
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -3343,4 +3347,11 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
         .dnone{
             display:none !important;
         }
+    }
+
+
+
+
+    html, body, div, span,  object,  h1, h2, h3, h4, h5, h6, p, a{
+        font-family: montserrat !important;
     }
