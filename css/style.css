@@ -3336,3 +3336,11 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
       left:250px;
     
     } */
+
+    @media (max-width: 700px) {
+
+
+        .dnone{
+            display:none !important;
+        }
+    }
