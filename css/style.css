@@ -1705,7 +1705,7 @@ header .line-entry{white-space: nowrap;}
 /* 14.03 - content styles */
 body.style-10 .bubbles span{background: #ca1515;}
 body.style-10 .inline-product-entry .title:hover{color: #ca1515!important;}
-body.style-10 .price .current{color: #ca1515;}
+body.style-10 .price .current{color: #A31300;}
 body.style-10 .inline-product-entry .image:hover{border-color: #ca1515;}
 body.style-10 .product-slide-entry{text-align: center;}
 body.style-10 .swiper-tabs .block-title:before{background: #ca1515;}
@@ -3400,14 +3400,23 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     .information-header{display:none;}
     .backred{
         display: none;
+       
     }
+    .displayok{
+        display:block;
+    } 
     }
 
 
 .backred{
-    background-color: red; 
+    background-color: #A31300; 
     height: 40px;
     padding-top: 8px;
     margin-bottom:40px;
 }    
+
+.titles{
+    background-color: #A31300;
+    color:white;
+}
 
