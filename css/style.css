@@ -3394,6 +3394,7 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     font-size: 24px;
     font-weight: bolder;
     margin-bottom: 20px !important;
+    color: white;
 }
 
 @media(max-width:920px) {
