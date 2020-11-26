@@ -3365,5 +3365,13 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
   margin-top: 20px;
   position: absolute;
   right:213px;
+  color:red;
+}
+
+.fbcolor{
+    color:#1FA7CE !important;
+}
+.instagramcolor{
+    color:#B83239 !important;
 }
 
