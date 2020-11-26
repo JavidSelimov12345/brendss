@@ -3428,4 +3428,10 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .margin-bot{
     margin-bottom: 24px !important;
 }
+.maingreen{
+    color:#009205 !important;
+}
+.white{
+    color:white !important;
+}
 
