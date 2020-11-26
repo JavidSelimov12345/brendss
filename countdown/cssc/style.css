@@ -873,7 +873,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 .btn-shop-now-fill {
-  background: #111111;
+  background: #A31300;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -899,8 +899,8 @@ ul {
   }
 }
 .btn-shop-now-fill:hover {
-  background: transparent;
-  color: #111111;
+  background: #009205;
+  color: white;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -7417,10 +7417,11 @@ ul {
   padding-top: 7px;
   height: 80px;
   width: 86px;
-  background: #111111;
+  background: #009205;
   display: inline-block;
   text-align: center;
   margin-right: 5px;
+  padding-top: 20px;
 }
 @media only screen and (max-width: 479px) {
   .offer-area1 .countdown .countdown-section {
@@ -16617,4 +16618,7 @@ ul {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 0;
+}
+h3,p{
+  color: #A31300 !important;
 }
