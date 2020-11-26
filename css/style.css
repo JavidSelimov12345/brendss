@@ -3388,3 +3388,7 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     font-weight: bolder;
 }
 
+@media(max-width:820px) {
+    .information-header{display:none;}
+    }
+
