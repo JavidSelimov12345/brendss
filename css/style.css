@@ -3386,9 +3386,23 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .information-header{
     font-size: 24px;
     font-weight: bolder;
+    margin-bottom: 20px !important;
+   
+}
+.counter-header{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 20px !important;
 }
 
 @media(max-width:820px) {
     .information-header{display:none;}
     }
+
+
+.backred{
+    background-color: red; 
+    height: 40px;
+    padding-top: 8px;
+}    
 
