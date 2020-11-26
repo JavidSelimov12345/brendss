@@ -3420,4 +3420,8 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     background-color: #A31300;
     color:white;
 }
+.overflower{
+    overflow: hidden;
+    padding: 18px;
+}
 
