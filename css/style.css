@@ -3360,4 +3360,10 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .headerul{
     margin-bottom:18px;
 }
+.tele{
+
+  margin-top: 20px;
+  position: absolute;
+  right:213px;
+}
 
