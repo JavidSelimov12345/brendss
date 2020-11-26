@@ -152,7 +152,7 @@ body{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line
 .block-title.size-3{font-size: 24px; margin-bottom: -1px;}
 .block-title.size-4{font-size: 30px; font-weight: 400; line-height: 30px; margin-bottom: 20px; padding-bottom: 20px;}
 /*buttons*/
-.button{font-weight: 700; font-size: 12px; line-height: 14px; color: #373737; text-transform: uppercase; text-align: center; padding: 8px 10px; display: inline-block; margin-bottom: 12px; cursor: pointer; min-width: 127px; border: 2px #dadada solid; background: transparent; position: relative;}
+.button{font-weight: 700; font-size: 12px; line-height: 14px; color: #373737; text-transform: uppercase; text-align: center; padding: 8px 10px; display: inline-block; margin-bottom: 12px; cursor: pointer; min-width: 190px; border: 2px #dadada solid; background: transparent; position: relative;}
 .button .fa{margin-right: 5px;}
 .button.style-2{background: #f2f2f2; border-color: #f2f2f2;}
 .button.style-9{border-color: rgba(255,255,255,0.5);}
@@ -184,7 +184,7 @@ body{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line
 .button.style-18{background: #f2f2f2; border-color: #f2f2f2; color: #333;}
 .button.style-18:hover{background: transparent;}
 .button.style-19{background: #ca1515; border-color: #ca1515; color: #fff;}
-.button.style-19:hover{background: transparent;}
+.button.style-19:hover{background: #ca1515;border-color: #009205;}
 .button-x{font-size: 12px; line-height: 15px; width: 15px; text-align: center; color: #808080;}
 .button-x .fa{display: block; line-height: 15px;}
 /*overflow*/
