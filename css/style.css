@@ -3458,6 +3458,9 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .br-radius{
     border-radius: 10px;
 }
+.br-radius-15{
+    border-radius: 15px;
+}
 #checked{
     display: block !important;
     width:10px;
