@@ -1026,8 +1026,8 @@ body.style-2 .navigation-search-content .search-box{position: absolute; left: 0;
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 /* 07.01 - footer */
-.footer-wrapper.style-3 footer:before{background: #333; bottom: 0; content: ""; height: 100%; left: 50%; margin-left: -50000px; position: absolute; width: 100000px;}
-.footer-wrapper.style-3 .footer-bottom-navigation:before{background: #2e2e2e; bottom: 0; content: ""; height: 100%; left: 50%; margin-left: -50000px; position: absolute; width: 100000px;}
+.footer-wrapper.style-3 footer:before{background:#253444; bottom: 0; content: ""; height: 100%; left: 50%; margin-left: -50000px; position: absolute; width: 100000px;}
+.footer-wrapper.style-3 .footer-bottom-navigation:before{background: #253444; bottom: 0; content: ""; height: 100%; left: 50%; margin-left: -50000px; position: absolute; width: 100000px;}
 .footer-wrapper.style-3 .footer-columns-entry .column a{color: #a6a6a6;}
 .footer-wrapper.style-3 .footer-address a b{color: #fff;}
 .footer-wrapper.style-3 .footer-columns-entry .column a:hover, .footer-wrapper.style-3 .footer-bottom-navigation .footer-links a:hover{color: #fff;}
@@ -1674,7 +1674,7 @@ header .line-entry{white-space: nowrap;}
     .header-wrapper.style-10 header:not(.fixed-header) nav>ul>li>a{color: #fff;}
     .header-wrapper.style-10 nav>ul>li>.fa{color: #979797;}
     .header-wrapper.style-10 .navigation{border: none;}
-    .header-wrapper.style-10 header:not(.fixed-header) .nav-overflow{background: #323232; border: none;}
+    .header-wrapper.style-10 header:not(.fixed-header) .nav-overflow{background: #253444; border: none;}
     .header-wrapper.style-10 .nav-overflow:before{content: ""; width: 100000px; left: 50%; margin-left: -50000px; position: absolute; top: 0; height: 100%; background: inherit;}
 }
 /*Desktops (>=992px)*/
@@ -3440,4 +3440,18 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 }
 .gray{
     color:#253444 !important;
+}
+.red{
+    color: red !important;
+
+}
+.height{
+    height: 2px;
+}
+
+.block{
+    margin-top: 12px;
+   
+   font-size: 24px;
+   font-weight: bolder;
 }
