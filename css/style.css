@@ -3434,4 +3434,10 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .white{
     color:white !important;
 }
-
+.required{
+    color:red;
+    font-size: 15px;
+}
+.gray{
+    color:#253444 !important;
+}
