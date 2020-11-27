@@ -169,8 +169,8 @@ body{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line
 .button.style-7:hover{background: transparent;}
 .button.style-8{background: transparent; color: #fff; border-color: rgba(204, 204, 204, 0.2);}
 .button.style-8:hover{border-color: rgba(204, 204, 204, 1);}
-.button.style-10, .button.style-12, .button.style-18{font-size: 14px; line-height: 18px; padding: 11px 40px; text-transform: uppercase; font-weight: 700; color: #fff; border: 2px #262626 solid; background: #262626; letter-spacing: 2px;}
-.button.style-10:hover, .button.style-12:hover{background: #fff; color: #262626;}
+.button.style-10, .button.style-12, .button.style-18{font-size: 14px; line-height: 18px; padding: 11px 40px; text-transform: uppercase; font-weight: 700; color: #fff; border: 2px #262626 solid; background: #A31300; letter-spacing: 2px;}
+.button.style-10:hover, .button.style-12:hover{background: #009205; color: white;}
 .button.style-11{font-size: 13px; color: #262626; font-weight: 700; text-transform: uppercase; line-height: 18px; padding: 12px 40px; border: 1px #fff solid; background: #fff;}
 .button.style-11:hover{color: #808080;}
 .button.style-12{border-color: #ca1515; background: #ca1515;}
@@ -1925,7 +1925,7 @@ select{background: #fff!important;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 17 - LOGIN */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.login-box{background: #fcfcfc; border: 1px #ebebeb solid; padding: 50px 55px; min-height: 470px;}
+.login-box{background: #fff; border: 1px #ebebeb solid; padding: 50px 55px; min-height: 470px;}
 /* Tablets (>=768px)*/
 @media (max-width: 991px) {
     .login-box{padding: 20px 25px;}
