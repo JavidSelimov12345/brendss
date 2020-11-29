@@ -584,4 +584,26 @@ $(function() {
 });
 
 
+$(document).ready(function () {
+    $('#hesab').click(function () {
+		$('.hesab').show();
+		$('.secil').hide();
+		$('.muqayise').hide();
+
+	});
+	$('#secil').click(function () {
+		$('.hesab').hide();
+		$('.secil').show();
+		$('.muqayise').hide();
+
+	});
+	$('#muqayise').click(function () {
+		$('.hesab').hide();
+		$('.secil').hide();
+		$('.muqayise').show();
+
+    });
+});
+
+
 
