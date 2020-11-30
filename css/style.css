@@ -3441,6 +3441,12 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .gray{
     color:#253444 !important;
 }
+.bkgray{
+    background-color:#253444 ;
+}
+.bkgray:hover{
+    background-color:#A31300 ;
+}
 .red{
     color: red !important;
 
