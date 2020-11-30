@@ -3506,3 +3506,7 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .ulmargin{
     margin-right: 100px;
 }
+
+.onhoversosial:hover{
+    color: #A31300 !important;
+}
