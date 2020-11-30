@@ -3442,10 +3442,12 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     color:#253444 !important;
 }
 .bkgray{
-    background-color:#253444 ;
+    background-color:#253444 !important ;
+    border: none !important ;
 }
 .bkgray:hover{
-    background-color:#A31300 ;
+    background-color:#A31300 !important;
+    border: #A31300 !important ;
 }
 .red{
     color: red !important;
