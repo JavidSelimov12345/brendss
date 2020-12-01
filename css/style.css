@@ -3518,3 +3518,14 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
 .onhoversosial:hover{
     color: #A31300 !important;
 }
+
+
+@media  only screen and (max-width: 800px) {
+   
+  .product-slide-entry .product-image .bottom-line.left-attached{
+
+    left: 0px;
+   
+
+    }
+  }
