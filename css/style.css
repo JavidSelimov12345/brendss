@@ -717,7 +717,7 @@ footer{position: relative;}
 .product-slide-entry .product-image .bottom-line.left-attached{left: -37px; bottom: 0; width: 35px; -webkit-backface-visibility: hidden;}
 .product-slide-entry .product-image:hover .bottom-line.left-attached{left: 0;}
 .product-image .bottom-line-a{color: #fff; display: block; cursor: pointer; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
-.product-image .bottom-line-a:hover{background: #fff; color: #222; border-color: transparent!important;}
+.product-image .bottom-line-a:hover{background: #A31300; color: white; border-color: transparent!important;}
 .product-image .bottom-line-a .fa{color: inherit!important;}
 .product-image .bottom-line-a.square{width: 35px; border-left: 1px rgba(255, 255, 255, 0.1) solid;}
 .product-image .bottom-line.left-attached .bottom-line-a.square{border-left-color: transparent; border-bottom: 1px rgba(255, 255, 255, 0.1) solid;}
@@ -3531,15 +3531,37 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
   }
 
 
-.pupper{
-    width: 110px;
-    height: 33px;
+
+
+
+@media  only screen and (max-width: 801px) {
+   
+    .pupper{
+
+        position: fixed;
+        width:200px;
+        height: 100px;
+       
+        z-index: 999999999999999;
+        top:30%;
+        left:25%;
+        display:none;
+       
+    }
+    }
+
+    @media  only screen and (min-width: 800px) {
+   
+        .pupper{
     
-    position: absolute;
-    top: 9px;
-    left: 59px;
-    display: none;
-    font-size: 16px;
-    color:#A31300;
-    font-weight: bold;
-}  
+            position: fixed;
+            width:200px;
+            height: 100px;
+            
+            z-index: 999999999999999;
+            top:30%;
+            left:40%;
+            display: none;
+           
+        }
+        }    
