@@ -606,9 +606,9 @@ $(document).ready(function () {
 	
 	$('.melumat').click(function(){
 		$('.pupper').show();
-		$('.pupper').text("İcra olundu")
+		
 	
-		$('.pupper').fadeOut(1500);
+		$('.pupper').fadeOut(1800);
       
 		
 	})
