@@ -2108,7 +2108,7 @@ select{background: #fff!important;}
 .portfolio-container{position: relative;}
 .portfolio-navigation{font-size: 0; text-align: center; margin-bottom: 36px; padding-top: 32px; border-top: 1px #ebebeb solid; position: relative; z-index: 2;}
 .portfolio-navigation a{line-height: 33px; border: 1px #e3e3e3 solid; display: inline-block; font-size: 12px; font-weight: 500; color: #666666; padding: 0 20px; margin: 0 4px 8px 4px;}
-.portfolio-navigation a:hover, .portfolio-navigation a.active{background: #253444; border-color: #253444; color: #fff;}
+.portfolio-navigation a:hover, .portfolio-navigation a.active{background: #253444; border-color: #cd0000; color: #fff;}
 .portfolio-entry{margin-bottom: 45px; position: relative;}
 .portfolio-entry .image{overflow: hidden; position: relative; display: block; margin-bottom: 20px;}
 .portfolio-entry .image img{display: block; position: relative; width: 100%;}
