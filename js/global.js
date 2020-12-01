@@ -477,8 +477,11 @@ $(function() {
 
     //product page - selecting size, quantity, color
     $('.size-selector .entry').on('click', function(){
+		$(this).parent().find('.active').css('backgroundColor','white').css('color','gray');
     	$(this).parent().find('.active').removeClass('active');
-    	$(this).addClass('active');
+		$(this).addClass('active');
+		$(this).css('backgroundColor','#A31300').css('color','white');
+		
     });
 
     $('.color-selector .entry').on('click', function(){
