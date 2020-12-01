@@ -602,7 +602,18 @@ $(document).ready(function () {
 		$('.secil').hide();
 		$('.muqayise').show();
 
-    });
+	});
+	
+	$('.melumat').click(function(){
+		$('.pupper').show();
+		$('.pupper').text("İcra olundu")
+	
+		$('.pupper').fadeOut(1500);
+      
+		
+	})
+	
+	
 });
 
 
