@@ -608,7 +608,7 @@ $(document).ready(function () {
 		$('.pupper').show();
 		
 	
-		$('.pupper').fadeOut(1800);
+		$('.pupper').fadeOut(1500);
       
 		
 	})
