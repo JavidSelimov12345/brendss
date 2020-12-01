@@ -589,18 +589,29 @@ $(document).ready(function () {
 		$('.hesab').show();
 		$('.secil').hide();
 		$('.muqayise').hide();
+		$('.tarix').hide();
 
 	});
 	$('#secil').click(function () {
 		$('.hesab').hide();
 		$('.secil').show();
 		$('.muqayise').hide();
+		$('.tarix').hide();
 
 	});
 	$('#muqayise').click(function () {
 		$('.hesab').hide();
 		$('.secil').hide();
 		$('.muqayise').show();
+		$('.tarix').hide();
+
+	});
+
+	$('#tarix').click(function () {
+		$('.hesab').hide();
+		$('.secil').hide();
+		$('.muqayise').hide();
+		$('.tarix').show();
 
 	});
 	
