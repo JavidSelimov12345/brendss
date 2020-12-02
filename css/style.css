@@ -170,7 +170,7 @@ body{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 14px; line
 .button.style-8{background: transparent; color: #fff; border-color: rgba(204, 204, 204, 0.2);}
 .button.style-8:hover{border-color: rgba(204, 204, 204, 1);}
 .button.style-10, .button.style-12, .button.style-18{font-size: 14px; line-height: 18px; padding: 11px 40px; text-transform: uppercase; font-weight: 700; color: #fff; border: 2px #262626 solid; background: #A31300; letter-spacing: 2px;}
-.button.style-10:hover, .button.style-12:hover{background: #009205; color: white;}
+.button.style-10:hover, .button.style-12:hover{background: #A31300; color: white;}
 .button.style-11{font-size: 13px; color: #262626; font-weight: 700; text-transform: uppercase; line-height: 18px; padding: 12px 40px; border: 1px #fff solid; background: #fff;}
 .button.style-11:hover{color: #808080;}
 .button.style-12{border-color: #ca1515; background: #ca1515;}
@@ -2106,7 +2106,7 @@ select{background: #fff!important;}
 /* 21 - PORTFOLIO */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .portfolio-container{position: relative;}
-.portfolio-navigation{font-size: 0; text-align: center; margin-bottom: 36px; padding-top: 32px; border-top: 1px #ebebeb solid; position: relative; z-index: 2;}
+.portfolio-navigation{font-size: 0; margin-bottom: 36px; padding-top: 32px; border-top: 1px #ebebeb solid; position: relative; z-index: 2;}
 .portfolio-navigation a{line-height: 33px; border: 1px #e3e3e3 solid; display: inline-block; font-size: 12px; font-weight: 500; color: #666666; padding: 0 20px; margin: 0 4px 8px 4px;}
 .portfolio-navigation a:hover, .portfolio-navigation a.active{background: #253444; border-color: #253444; color: #fff;}
 .portfolio-entry{margin-bottom: 45px; position: relative;}
@@ -3575,5 +3575,25 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
             display: none;
         }
 
-            }         
-        
+            }   
+            
+            
+
+@media (max-width: 768px){
+            .swiper-tabs .list, .links-drop-down .list {
+                display: block!important;
+            }            
+        }
+
+@media (max-width: 767px){
+        .swiper-tabs .titler:after, .links-drop-down .titler:after {
+            line-height: 40px;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            font-family: FontAwesome;
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+        } }       

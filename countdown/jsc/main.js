@@ -139,7 +139,7 @@
      -------------------------------------*/
     var eventCounter = $('.countdown');
     if (eventCounter.length) {
-        eventCounter.countdown('2020/12/2', function(e) {
+        eventCounter.countdown('2020/12/12', function(e) {
             $(this).html(e.strftime("<div class='countdown-section'><h3>%D</h3> <p>gün</p> </div><div class='countdown-section'><h3>%H</h3> <p>Saat</p> </div><div class='countdown-section'><h3>%M</h3> <p>Dəqiqə</p> </div><div class='countdown-section'><h3>%S</h3> <p>saniyə</p> </div>"))
 
         });
