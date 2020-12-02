@@ -3579,11 +3579,11 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
             
             
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
             .swiper-tabs .list, .links-drop-down .list {
                 display: block!important;
             }            
-        }
+        } */
 
 @media (max-width: 767px){
         .swiper-tabs .titler:after, .links-drop-down .titler:after {
