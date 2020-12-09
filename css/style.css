@@ -3614,4 +3614,24 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
           
               }
             }
+     
+       
+.font1em{
           
+                font-size: 2em !important;
+               
+            
+                }            
+
+.colorMain{
+    color:#253444 !important;
+}  
+
+.overload{
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    
+}
