@@ -367,6 +367,10 @@ $(function() {
 		closecartTimeout = setTimeout(function(){closePopups();}, 100);
 	});
 
+	$('.button-x').on('click', function(){
+		closecartTimeout = setTimeout(function(){closePopups();}, 1);
+	});
+
 	var closecartTimeout = 0;
 	$('.cart-box.popup').on('mouseover', function(){
 		clearTimeout(closecartTimeout);
