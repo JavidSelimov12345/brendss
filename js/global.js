@@ -364,7 +364,7 @@ $(function() {
 	});
 	
 	$('.open-cart-popup').on('mouseleave', function(){
-		closecartTimeout = setTimeout(function(){closePopups();}, 1000);
+		closecartTimeout = setTimeout(function(){closePopups();}, 100);
 	});
 
 	var closecartTimeout = 0;
