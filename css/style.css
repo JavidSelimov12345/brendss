@@ -3635,3 +3635,18 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     height: 100%;
     
 }
+
+.compare h2{
+
+    font-weight: bolder;
+    margin:5px;
+
+}
+.compare p{
+
+    text-align: justify;
+
+}
+.compare{
+    text-align: center;
+}
