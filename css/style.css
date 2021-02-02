@@ -3651,5 +3651,19 @@ _:-ms-input-placeholder, :root .simple-drop-down select{padding-right: 10px;}
     text-align: center;
 }
 
-
-
+/* deyishiklik olan css */
+#imgimge{
+    opacity: 0.4;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+#spanimg{
+    font-weight: bolder;
+    color:#253444;
+}
+.price .prev {
+    text-decoration: none !important;
+}
